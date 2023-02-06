@@ -10,13 +10,20 @@ The methodology behind the framework is described in the paper [*Where Did My Va
 To reference our work, we would be grateful if you could use the following BibTeX code:
 
 ```
-@inproceedings{incomplete-debuginfo,
+@inproceedings{10.1145/3575693.3575720,
     author = {Assaiante, Cristian and D'Elia, Daniele Cono and Di Luna, Giuseppe Antonio and Querzoni, Leonardo},
     title = {Where Did My Variable Go? Poking Holes in Incomplete Debug Information},
     year = {2023},
+    isbn = {9781450399166},
     publisher = {Association for Computing Machinery},
-    booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
-    location = {Vancouver, Canada},
-    series = {ASPLOS '23},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3575693.3575720},
+    doi = {10.1145/3575693.3575720},
+    booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2},
+    pages = {935–947},
+    numpages = {13},
+    keywords = {compiler optimizations, compiler bugs, Debuggers},
+    location = {Vancouver, BC, Canada},
+    series = {ASPLOS 2023}
 }
 ```
