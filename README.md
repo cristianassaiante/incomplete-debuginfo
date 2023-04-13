@@ -39,7 +39,7 @@ We provide to the users 3 bash scripts to easily run a bug finding session.
 
 The following dependencies are needed to run the scripts:
 ```
-python3 csmith compcert gcc clang
+python3 csmith compcert gcc clang gdb lldb llvm
 ```
 
 If you want to customize these scripts (e.g., by enabling multiprocess computations), each python script has its own documentation available with the `--help` flag.
