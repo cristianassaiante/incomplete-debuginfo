@@ -7,7 +7,7 @@ SEED=$3
 # 'gcc' and 'clang' always refer to the trunk version
 GCC_BIN=$(which gcc)
 CLANG_BIN=$(which clang)
-CSMITH_INCLUDE=$(find /usr/include -maxdepth 1 | grep csmith) 
+CSMITH_INCLUDE=$(find /usr/include -maxdepth 1 | grep csmith | head -n1) 
 SOURCE_FILE=a.c
 
 set -x
