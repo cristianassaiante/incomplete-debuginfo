@@ -6,7 +6,7 @@
 
 my @ALL_SWARM_OPTS = (
     "arrays",
-    "checksum",
+    # "checksum",
     "comma-operators",
     "compound-assignment",
     "consts",
@@ -17,14 +17,17 @@ my @ALL_SWARM_OPTS = (
     "force-non-uniform-arrays",
     "math64",
     "muls",
+    "packed-struct",
     "paranoid",
+    "structs",
     "pointers",
     "volatiles",
     "volatile-pointers",
+    "arg-structs",
     "dangling-global-pointers",
    );
 
-my $XTRA = "--no-float --no-structs --safe-math --no-argc --no-inline-function --no-unions --no-bitfields --no-return-structs --max-funcs 5 --max-block-depth 1";
+my $XTRA = "--no-float --no-checksum --safe-math --no-argc --no-inline-function --no-unions --no-bitfields --no-return-structs --max-funcs 5 --max-block-depth 1";
 
 my $PACK = "";
 
